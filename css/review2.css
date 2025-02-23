@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #ffffffd9; /* Soft pink background */
+    display: flex;
+    align-items: center;
+}
+
+/* CineCritic LOGO*/
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav {
+    display: flex;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+ 
+.nav a:hover{
+    color: #E74C3C;
+    font-size:19px;
+    font-weight: 700;
+
+}
+.nav2 a{
+    position:absolute;
+    
+    padding-left: 1030px;
+    color: rgb(140, 4, 4);
+}
+
+body {
+    background:#2b2b31;
+    align-items: center;
+}
+
+header {
+    width: 55%;
+    padding: 70px 50px 20px ;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.thumbnail {
+    background-color: #2b2b31;
+    margin: 0px;
+    display: flex;
+
+}
+
+/* review side  */
+.content{
+    background-color: #ffffff;
+    width: 55%;
+    height: 595px;
+    padding: 47px 200px 10px 50px;
+    font-weight:bold;
+    font-size: 41px;
+}
+
+
+/* h1  {
+    padding: 100px  100px 100px 1100px;
+} */
+
+
+  .container2 {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-30%, -50%);
+    font-family: 'Montserrat', sans-serif;
+        }
+
+        .spider {
+            font-size: 80px;
+            font-weight: 700;
+            color: rgb(255, 255, 255);
+        }
+
+        .man {
+            font-size: 100px;
+            font-weight: 700;
+            color: rgb(236, 236, 236);
+            line-height: 0.9;
+        }
+
+        .into-spider-verse {
+            font-size: 25px;
+            font-weight: 400;
+            color: #E74C3C;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+.icontainer{
+    position:absolute;
+    left: 40%;
+    top:20px;
+
+}
+
+.review{
+    position: absolute; /* Set absolute positioning */
+    top: 130px; /* Adjust position */
+    left: 120px;
+    width: 430px;
+    height: 555px;
+    background-color: rgba(189, 189, 189, 0.7); /* Semi-transparent red */
+    border: 2px solid #E74C3C;
+    text-align: center;
+    padding: 40px 40px 40px 40px;
+    color:rgb(15, 15, 15);
+    overflow: auto;
+    scrollbar-width: none; 
+    font-size: large;
+    border-radius: 18px;
+}
+
+
+    .btn {
+        padding: 10px 30px;
+        font-size: 16px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn:hover{
+        padding: 10px 30px;
+        font-size: 18px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .btn01  {
+        background-color: #454545;
+        color: #cccccc;
+        position: absolute; /* Set absolute positioning */
+        top: 68%; /* Adjust position */
+        left: 85%;
+        text-decoration: none;
+    }
+    
+    .btn01 a {
+        color: #ffffffde;
+        text-decoration: none;
+
+    }
+
+    .btn01:hover ,  .btn01 a:hover{
+        color: #181818 ;
+        background-color: #ffffffe2 ;
+        font-weight:bold;
+    }
+    
+    .btn02   {
+        background-color: #ffffffe2;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+
+        position: absolute; /* Set absolute positioning */
+        top: 68%; /* Adjust position */
+        left: 73%;
+        
+      
+    }
+    
+    .btn02 a { 
+        text-decoration: none;
+        color: #181818;
+    }
+
+    .btn02:hover ,  .btn02 a:hover{
+        color: #ffffff ;
+        background-color: #454545 ;
+        font-weight:bold;
+    }
+    

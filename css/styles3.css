@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #58a9c7d9;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav {
+    display: flex;
+    gap:9.04%;
+    padding-left:30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    color: #c9c9c9;
+}
+ 
+.nav2 a{
+    padding-left: 1030px;
+    color: rgb(140, 4, 4);
+}
+
+.nav a:hover{
+    color: #ffffff;
+    font-size: x-large;
+}
+.thumbnail {
+    margin: 20px;
+}
+body {
+    background: #cccccc;
+    align-items: center;
+}
+
+header {
+    width: 78.1%;
+    padding: 70px 50px 20px ;
+    margin: 0px;
+    background-color: #58A9C7;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 1.85%;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.thumbnail {
+    background-color: #c9c9c9;
+    margin: 0px;
+    display: flex;
+}
+
+.content{
+    background-color: #58A9C7;
+    width: 78.1%;
+    height: 355px;
+    padding: 4.35% 10.42% 0.93% 2.60%;
+    font-weight:bold;
+    font-size: 42px;
+}
+
+.icontainer{
+    position:absolute;
+    left: 69.1%;
+
+    top:20px;
+
+}
+
+   /* Movie Section */
+   .movies {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-left: 44px;
+    margin-top: 20px;
+    
+}
+
+.movie {
+    text-align: center;
+}
+
+.movie-box {
+    width: 276px;
+    height: 405px;
+    background-color: #10b3e4;
+    border-radius: 10px;
+}
+
+.movie-title {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    
+    position: absolute;
+    text-align: center;
+
+}
+
+.movie-title a{
+    text-decoration: none;
+    color: #404040;
+}
+
+/* buttons */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover{
+    font-size: 19px;
+
+}
+
+.btn01  {
+    background-color: #ffffff;
+   color: #404040;
+    
+}
+
+.btn01 a {
+    color: #404040;
+    text-decoration: none;
+}
+
+.btn02   {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+  
+}
+
+.btn02 a { 
+    text-decoration: none;
+    color: #ffffff;
+}

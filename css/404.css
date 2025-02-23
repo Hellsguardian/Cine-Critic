@@ -1,0 +1,90 @@
+.btn {
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 1%;
+    
+}
+
+.btn:hover{
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn01  {
+    background-color: #454545;
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.btn01 a {
+    color: #ffffffde;
+    text-decoration: none;
+
+}
+
+.btn01:hover ,  .btn01 a:hover{
+    color: #181818 ;
+    background-color: #ffffffe2 ;
+    font-weight:bold;
+}
+
+.btn02   {
+    background-color: #ffffffe2;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.btn02 a { 
+    text-decoration: none;
+    color: #181818;
+}
+
+.btn02:hover ,  .btn02 a:hover{
+    color: #ffffff ;
+    background-color: #454545 ;
+    font-weight:bold;
+}
+
+
+.btn03   {
+    
+    background-color: #ffffffe2;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.btn03 a { 
+    text-decoration: none;
+    color: #181818;
+}
+
+.btn03:hover ,  .btn03 a:hover{
+    color: #ffffff ;
+    background-color: #454545 ;
+    font-weight:bold;
+    
+}
+
+
+
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    align-content: center;  /* Centers vertically */
+    height: 100vh;
+    text-align: center;
+    background-color: #d9d9d9;
+    height: 355px;
+    width: 60%;
+    border-radius: 20px;
+    
+}
